@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stüdiere | Contenido</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo__text">STÜDIERE</span>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav__list">
+        <li><a href="destacados.html" class="icon-btn" aria-label="Destacados">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2l2.9 6.9L22 9.2l-5.2 4.9 1.5 7.1L12 17.6 5.7 21.2l1.5-7.1L2 9.2l7.1-.3z"/></svg>
+        </a></li>
+        <li><a href="avisos.html" class="icon-btn" aria-label="Notificaciones">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22zm7-6v-5a7 7 0 0 0-5.5-6.84V3a1.5 1.5 0 0 0-3 0v1.16A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg>
+        </a></li>
+        <li><a href="menu.html" class="icon-btn" aria-label="Menú">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M3 5h18v2H3zM3 11h18v2H3zM3 17h18v2H3z"/></svg>
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site-main">
+
+    <section class="panel panel--top" aria-label="Contenido">
+
+      <div class="page-intro">
+        <h1 class="page-intro__title">Contenido</h1>
+        <p class="page-intro__desc">Explora tus asignaturas y revisa el contenido de cada clase</p>
+      </div>
+
+      <nav class="subject-tabs" aria-label="Asignaturas">
+        <ul class="subject-tabs__list">
+          <li>
+            <a href="#historia" class="subject-tab subject-tab--active" aria-current="page">
+              <span class="subject-tab__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2 3 7v2h18V7zM5 10v8H4v2h16v-2h-1v-8h-2v8h-3v-8h-2v8H9v-8z"/></svg>
+              </span>
+              <span class="subject-tab__label">Historia</span>
+            </a>
+          </li>
+          <li>
+            <a href="#matematica" class="subject-tab">
+              <span class="subject-tab__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M4 11h6V5H4zm0 8h6v-6H4zm8-8h6V5h-6zm1 2v2h2v2h2v-2h2v-2h-2V9h-2v2z"/></svg>
+              </span>
+              <span class="subject-tab__label">Matemática</span>
+            </a>
+          </li>
+          <li>
+            <a href="#lenguaje" class="subject-tab">
+              <span class="subject-tab__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M6 2h9a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 4v12h9V6z"/></svg>
+              </span>
+              <span class="subject-tab__label">Lenguaje</span>
+            </a>
+          </li>
+          <li>
+            <a href="#quimica" class="subject-tab">
+              <span class="subject-tab__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M9 2v6.35L4.3 17a3 3 0 0 0 2.6 4.5h10.2a3 3 0 0 0 2.6-4.5L15 8.35V2zm2 2h2v3h-2z"/></svg>
+              </span>
+              <span class="subject-tab__label">Química</span>
+            </a>
+          </li>
+          <li>
+            <a href="#geometria" class="subject-tab">
+              <span class="subject-tab__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M3 20 13 4l8 16z"/></svg>
+              </span>
+              <span class="subject-tab__label">Geometría</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="subject-banner" aria-label="Historia">
+        <div class="subject-banner__media">
+          <img src="historia.png" alt="Imagen relacionada con la historia" class="subject-banner__img">
+        </div>
+        <div class="subject-banner__content">
+          <h2 class="subject-banner__title">Historia</h2>
+          <span class="subject-banner__accent" aria-hidden="true"></span>
+          <p class="subject-banner__desc">Explora el pasado, descubre nuevas historias y avanza en tu aprendizaje.</p>
+        </div>
+      </section>
+
+      <section class="classes" aria-label="Clases">
+        <h2 class="classes__title">Clases</h2>
+
+        <ul class="class-list">
+          <li class="class-item">
+            <a href="clase-gobiernos-radicales.html">
+              <span class="class-item__date"><strong>24</strong>MAY<br>2025</span>
+              <span class="class-item__text">
+                <span class="class-item__title">Gobiernos Radicales</span>
+                <span class="class-item__desc">Periodo de los Gobiernos Radicales</span>
+              </span>
+              <span class="class-item__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 6l6 6-6 6z"/></svg>
+              </span>
+            </a>
+          </li>
+          <li class="class-item">
+            <a href="clase-republica-parlamentaria.html">
+              <span class="class-item__date"><strong>17</strong>MAY<br>2025</span>
+              <span class="class-item__text">
+                <span class="class-item__title">Republica Parlamentaria</span>
+                <span class="class-item__desc">Oligarquía, reformas y conflicto</span>
+              </span>
+              <span class="class-item__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 6l6 6-6 6z"/></svg>
+              </span>
+            </a>
+          </li>
+          <li class="class-item">
+            <a href="clase-chile-siglo-xx.html">
+              <span class="class-item__date"><strong>10</strong>MAY<br>2025</span>
+              <span class="class-item__text">
+                <span class="class-item__title">Chile a inicios del siglo XX</span>
+                <span class="class-item__desc">Desigualdad, tensión y crisis</span>
+              </span>
+              <span class="class-item__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 6l6 6-6 6z"/></svg>
+              </span>
+            </a>
+          </li>
+          <li class="class-item">
+            <a href="clase-gobierno-liberal.html">
+              <span class="class-item__date"><strong>03</strong>MAY<br>2025</span>
+              <span class="class-item__text">
+                <span class="class-item__title">Gobierno Liberal</span>
+                <span class="class-item__desc">Principios y cambios liberales</span>
+              </span>
+              <span class="class-item__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 6l6 6-6 6z"/></svg>
+              </span>
+            </a>
+          </li>
+          <li class="class-item">
+            <a href="clase-gobierno-conservador.html">
+              <span class="class-item__date"><strong>26</strong>ABR<br>2025</span>
+              <span class="class-item__text">
+                <span class="class-item__title">Gobierno Conservador</span>
+                <span class="class-item__desc">Periodo autoritario y nacionalista</span>
+              </span>
+              <span class="class-item__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 6l6 6-6 6z"/></svg>
+              </span>
+            </a>
+          </li>
+          <li class="class-item">
+            <a href="clase-primeros-anos-chile.html">
+              <span class="class-item__date"><strong>19</strong>ABR<br>2025</span>
+              <span class="class-item__text">
+                <span class="class-item__title">Primeros años de Chile</span>
+                <span class="class-item__desc">Inestabilidad y libre mercado.</span>
+              </span>
+              <span class="class-item__chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M9 6l6 6-6 6z"/></svg>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <nav class="tab-bar" aria-label="Navegación inferior">
+      <ul class="tab-bar__list">
+        <li class="tab-bar__item">
+          <a href="index.html">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 3 2 12h3v8h6v-6h2v6h6v-8h3z"/></svg>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <li class="tab-bar__item">
+          <a href="informacion.html">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M4 4h16v12H7l-3 3z"/></svg>
+            <span>Información</span>
+          </a>
+        </li>
+        <li class="tab-bar__item tab-bar__item--active">
+          <a href="contenido.html">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 5c-2-1.5-5-2-8-1v13c3-1 6-.5 8 1 2-1.5 5-2 8-1V4c-3-1-6-.5-8 1z"/></svg>
+            <span>Contenido</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>

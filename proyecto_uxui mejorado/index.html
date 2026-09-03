@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stüdiere | Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Graduate&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo__text">STÜDIERE</span>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav__list">
+        <li><a href="destacados.html" class="icon-btn" aria-label="Destacados">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2l2.9 6.9L22 9.2l-5.2 4.9 1.5 7.1L12 17.6 5.7 21.2l1.5-7.1L2 9.2l7.1-.3z"/></svg>
+        </a></li>
+        <li><a href="avisos.html" class="icon-btn" aria-label="Notificaciones">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22zm7-6v-5a7 7 0 0 0-5.5-6.84V3a1.5 1.5 0 0 0-3 0v1.16A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg>
+        </a></li>
+        <li><a href="menu.html" class="icon-btn" aria-label="Menú">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M3 5h18v2H3zM3 11h18v2H3zM3 17h18v2H3z"/></svg>
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="site-main">
+
+    <section class="hero" aria-label="Presentación">
+      <div class="hero__media">
+        <img src="estudiando.png" alt="Estudiante tomando apuntes en el salón de clases" class="hero__img">
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title">Conoce tu <span class="hero__title--accent">avance.</span></h1>
+        <p class="hero__text">Todo lo que necesitas para aprender, organizarte y seguir avanzando.</p>
+      </div>
+      <div class="hero__dots" role="tablist" aria-label="Diapositivas destacadas">
+        <span class="dot dot--active" role="tab" aria-selected="true"></span>
+        <span class="dot" role="tab" aria-selected="false"></span>
+        <span class="dot" role="tab" aria-selected="false"></span>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="Panel de usuario">
+
+      <div class="welcome">
+        <img src="gabriela.jpg" alt="" class="welcome__avatar" aria-hidden="true">
+        <div class="welcome__text">
+          <p class="welcome__greeting">¡Bienvenida, Gabriela!</p>
+          <p class="welcome__subtitle">Informate sobre:</p>
+        </div>
+      </div>
+
+      <section class="options" aria-label="Accesos rápidos">
+        <ul class="options__grid">
+          <li class="option-card">
+            <a href="materia.html">
+              <span class="option-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.91V17h2V9zM5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+              </span>
+              <span class="option-card__title">Materia</span>
+              <span class="option-card__desc">Recupera el contenido de tus asignaturas</span>
+            </a>
+          </li>
+          <li class="option-card">
+            <a href="avisos.html">
+              <span class="option-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M3 11v2a1 1 0 0 0 1 1h2l4 4v-12l-4 4H4a1 1 0 0 0-1 1zm13.5 1a4.5 4.5 0 0 0-2.5-4.03v8.06A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>
+              </span>
+              <span class="option-card__title">Avisos</span>
+              <span class="option-card__desc">Mantente informado de cada situación</span>
+            </a>
+          </li>
+          <li class="option-card">
+            <a href="agenda.html">
+              <span class="option-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zm12 8v10H5V10zM7 12h4v4H7z"/></svg>
+              </span>
+              <span class="option-card__title">Agenda</span>
+              <span class="option-card__desc">Conoce cada fecha de evento importante</span>
+            </a>
+          </li>
+          <li class="option-card">
+            <a href="reunion.html">
+              <span class="option-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h9v-2.5c0-.83.33-2.13 1.5-3.15A11 11 0 0 0 8 13zm8 0c-.29 0-.62.02-.97.05 1.16 1 1.97 2.3 1.97 3.45V19h7v-2.5c0-2.33-4.67-3.5-8-3.5z"/></svg>
+              </span>
+              <span class="option-card__title">Reunión</span>
+              <span class="option-card__desc">Asiste a cada reunión establecida</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <nav class="tab-bar" aria-label="Navegación inferior">
+      <ul class="tab-bar__list">
+        <li class="tab-bar__item tab-bar__item--active">
+          <a href="index.html">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 3 2 12h3v8h6v-6h2v6h6v-8h3z"/></svg>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <li class="tab-bar__item">
+          <a href="informacion.html">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M4 4h16v12H7l-3 3z"/></svg>
+            <span>Información</span>
+          </a>
+        </li>
+        <li class="tab-bar__item">
+          <a href="contenido.html">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 5c-2-1.5-5-2-8-1v13c3-1 6-.5 8 1 2-1.5 5-2 8-1V4c-3-1-6-.5-8 1z"/></svg>
+            <span>Contenido</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
